@@ -1,5 +1,6 @@
-body{
-    background-color: red;
+body {
+    font-family: Arial;
+    overflow-x: hidden;
 }
 
 /* NAVBAR */
@@ -153,7 +154,7 @@ body{
 .hero {
     height: 100vh;
     background: linear-gradient(white, rgba(189, 187, 187, 0.6)),
-        url("Sheeza Portfolio_files/home3.jpg");
+        url("home3.jpg");
     background-size: cover;
     background-position: center;
 }
