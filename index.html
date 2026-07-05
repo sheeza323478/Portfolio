@@ -1,728 +1,268 @@
 <!DOCTYPE html>
-<!-- saved from url=(0049)file:///E:/sheeza/Sheeza%20Portfolio.html#contact -->
 <html lang="en">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Sheeza Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="Style.css">
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Watch Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
-        <div class="container">
-
-            <a class="navbar-brand" href="#">
-                <img src="logo2.jpg" alt="Logo">
-            </a>
-
-            <!-- Toggle Button -->
-            <button class="navbar-toggler" id="menuToggle">
-                <span id="menuIcon">&#9776;</span>
-            </button>
-
-            <!-- SIDE MENU -->
-            <div class="side-menu" id="menu">
-
-                <button class="close-btn" id="closeBtn">&times;</button>
-
-                <ul class="navbar-nav">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#blog">Blog</a></li>
-                    <li><a href="#testimonials">Testimonials</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-
+    <!-- --------------------------Navbar---------------------- -->
+    <header>
+        <nav class="navbar center">
+            <div class="logo "> <a href="#">Time <span>Zone</span></a></div>
+            <ul class="center">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Latest</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="nav-icons center">
+                <a href=""> <i class="fa fa-search" aria-hidden="true"></i></a>
+                <a href=""> <i class="fa fa-user-o" aria-hidden="true"></i></a>
+                <a href=""> <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
             </div>
-
+        </nav>
+    </header>
+    <!-- ==================================================== -->
+    <!-- --------------------------Hero Section---------------------- -->
+    <div class="hero-section center">
+        <div class="hero-content">
+            <h1>Select Your New Perfect Style</h1>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea comodo consequat
+                is aute irure</p>
+            <div class="btn-section"><form action=""><button type="button">SHOP NOW</button></form></div>
         </div>
-    </nav>
-
-    <!-- HERO -->
-    <section class="hero d-flex align-items-center">
-        <div class="container">
-            <div class="row align-items-center">
-
-                <!-- Text Side -->
-                <div class="col-md-6 text-black">
-                    <h1 class="fw-bold">
-                        Hi, I am <span class="h1">Sheeza</span>
-                    </h1>
-
-                    <h2>Creative Web Developer</h2>
-
-                    <p class="h5">
-                        I build modern and responsive websites for businesses
-                        with clean UI and professional design.I build professional websites and beautiful user
-                        interfaces. Modern responsive designs for your business
-                    </p>
-                    <a href="#contact" class="btn btn-main me-2">Hire Me</a>
-
-                    <a href="Sheeza_CV.pdf (1).pdf" class="btn btn-main" download target="_blank">
-                        Download CV
-                    </a>
-                </div>
-
-                <!-- Image Side -->
-                <div class="col-md-6 text-center">
-                    <img src="heroimage.jpeg" class="img-thumbnail" alt="Sheeza">
-                </div>
-
+        <div class="hero-image"><img src="watch.png" alt=""></div>
+    </div>
+    <!-- ============================================================ -->
+    <!-- -------------------New Arrivals---------------- -->
+    <div class="new-arrivals">
+        <h1>New Arrivals</h1>
+        <div class="-1 center">
+            <div><img src=""new_product1.png" alt="">
+                <h3>Thermo Ball Etip Gloves</h3>
+                <p class="price "> $ 45,743</p>
+            </div>
+            <div><img src=""new_product2.png" alt="">
+                <h3>Thermo Ball Etip Gloves</h3>
+                <p class="price "> $ 45,743</p>
+            </div>
+            <div><img src=""new_product3.png" alt="">
+                <h3>Thermo Ball Etip Gloves</h3>
+                <p class="price "> $ 45,743</p>
             </div>
         </div>
-    </section>
-    <!-- ================= ABOUT ================= -->
-    <section class="about container-fluid d-flex flex-column flex-md-row text-center text-md-start" id="about">
-
-        <div class="about-img">
-            <img src="image1.jpeg" class="img-fluid">
-            <h3>Web Designer</h3>
+        <div>
+            <!-- ========================================================== -->
+            <!-- ------------Gallery Section------------- -->
+            <div class="gallery center">
+                <div class="g-1 center">
+                    <div class="gallery-item-large"><img src="w1.jpg" alt=""></div>
+                    <div class="gallery-item "><img src="w2.jpg" alt=""></div>
+                </div>
+                <div class="gallery-column">
+                    <div><img src="w3.jpg" alt=""></div>
+                    <br>
+                    <div><img src="w4.jpg" alt=""></div>
+                </div>
+            </div>
+            <!-- ============================================================= -->
         </div>
-
-        <div class="about-text">
-            <h4>About Me</h4>
-            <h2>I Am A Passionate Web Designer</h2>
-
-            <p class="h5">
-                I love designing beautiful websites and interfaces.
-                My goal is to create modern and professional digital experiences.
+        <!-- section 4 -->
+        <div class="Popular center">
+            <h2>Popular items</h2>
+        </div>
+        <div class="Popular-content center">
+            <p>
+                Consectetur adipiscing elit, sed do eiusmod tempor incident ut labore et dolore magna aliqua. Quis ipsum
+                suspendisse ultrices gravida.
             </p>
         </div>
-        <a href="#contact" class="btn1 btn-main1 me-2">Contact</a>
-    </section>
-    <!-- ================= STATS ================= -->
-    <section class="stats container-fluid text-center py-5">
-
-        <div class="container">
-            <div class="row g-4">
-
-                <div class="col-6 col-md-3">
-                    <div class="stat">
-                        <h2>1+</h2>
-                        <p>Years Experience</p>
-                    </div>
+        <div class="Popular-main">
+            <div class="Popular-1 center">
+                <div>
+                    <img src="popular1.png" alt="Not available">
+                    <!-- <div class="section"><img src="/download (2).png" alt=""></div> -->
+                    <p>Thermo Ball Etip Gloves</p>
+                    <span>$ 45,743</span>
                 </div>
-
-                <div class="col-6 col-md-3">
-                    <div class="stat">
-                        <h2>25+</h2>
-                        <p>Projects Done</p>
-                    </div>
+                <div>
+                    <img src="popular2.png" alt="Not available">
+                    <p>Thermo Ball Etip Gloves</p>
+                    <span>$ 45,743</span>
                 </div>
-
-                <div class="col-6 col-md-3">
-                    <div class="stat">
-                        <h2>15+</h2>
-                        <p>Happy Clients</p>
-                    </div>
+                <div>
+                    <img src="popular3.png" alt="Not available">
+                    <p>Thermo Ball Etip Gloves</p>
+                    <span>$ 45,743</span>
                 </div>
-
-                <div class="col-6 col-md-3">
-                    <div class="stat">
-                        <h2>10+</h2>
-                        <p>Achievements</p>
-                    </div>
+            </div>
+            <div class="Popular-2 center">
+                <div>
+                    <img src="popular4.png" alt="Not available">
+                    <p>Thermo Ball Etip Gloves</p>
+                    <span>$ 45,743</span>
                 </div>
+                <div>
+                    <img src="popular5.png" alt="Not available">
+                    <p>Thermo Ball Etip Gloves</p>
+                    <span>$ 45,743</span>
+                </div>
+                <div>
+                    <img src="popular6.png" alt="Not available">
+                    <p>Thermo Ball Etip Gloves</p>
+                    <span>$ 45,743</span>
+                </div>
+            </div>
 
+            <div class="btn-section center">
+                <form action=""><button type="button">VIEW MORE PRODUCTS</button>
+            
+            </form>
+                </div>
+        </div>
+        <!-- section 5 -->
+
+        <video controls>
+<source src="watch video.mp4" type="video/mp4">
+Your browser does not support the video tag.
+       </video>
+    </div>
+    <!-- ------ -->
+    <!-- // =================== section 6 ======================// -->
+    <!-- <div class="section"> -->
+    <div class="container center ">
+        <div class="text ">
+            <h1>Watch of Choice</h1>
+            <p>
+                Enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.
+            </p>
+            <div class="btn-section">
+                <form action=""><button type="button">SHOW MORE WATCHES</button></form>
             </div>
         </div>
+        <div class="image"> <img src="choce_watch1.png"></div>
+    </div>
 
-    </section>
-    <!-- ================= HOBBIES ================= -->
-    <section class="hobbies container-fluid text-center">
+    <!-- </div> -->
+    <!-- <div class="section"> --"
+    <div class="container1 center">
 
-        <h3>Hobbies</h3>
-        <h2>Things I Love To Do</h2>
 
-        <div class="container">
-            <div class="row g-3 justify-content-center">
-
-                <div class="col-6 col-md-4 col-lg-5-custom">
-                    <div class="Card">Projects</div>
-                </div>
-
-                <div class="col-6 col-md-4 col-lg-5-custom">
-                    <div class="Card">Coding</div>
-                </div>
-
-                <div class="col-6 col-md-4 col-lg-5-custom">
-                    <div class="Card">Writing</div>
-                </div>
-
-                <div class="col-6 col-md-4 col-lg-5-custom">
-                    <div class="Card">Cooking</div>
-                </div>
-
-                <div class="col-6 col-md-4 col-lg-5-custom">
-                    <div class="Card">Photography</div>
-                </div>
-
-                <div class="col-6 col-md-4 col-lg-5-custom">
-                    <div class="Card">Reading</div>
-                </div>
-
-                <div class="col-6 col-md-4 col-lg-5-custom">
-                    <div class="Card">Playing</div>
-                </div>
-
-                <div class="col-6 col-md-4 col-lg-5-custom">
-                    <div class="Card">Marketing</div>
-                </div>
-
-                <div class="col-6 col-md-4 col-lg-5-custom">
-                    <div class="Card">Designing</div>
-                </div>
-
-                <div class="col-6 col-md-4 col-lg-5-custom">
-                    <div class="Card">Cybersecurity</div>
-                </div>
-
-            </div>
+        <div class="image">
+            <img src="/choce_watch2 (1).png">
         </div>
+        <div class="text">
+            <h1>Watch of Choice</h1>
+            <p>
+                Enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.
+            </p>
 
-    </section>
-    <!-- ================= SERVICES ================= -->
-    <section class="services container-fluid">
-
-        <h2>What Do I Offer</h2>
-
-        <p>
-            It is a long established fact that a reader will be distracted by the next readable content
-        </p>
-
-        <section class="py-5 text-center">
-            <div class="container">
-                <div class="row g-4">
-
-                    <div class="col-6 col-sm-6 col-md-3">
-                        <div class="service-card">
-                            <img src="services_one.svg" class="img-fluid mb-2">
-                            <h5>Web Design</h5>
-                        </div>
-                    </div>
-
-                    <div class="col-6 col-sm-6 col-md-3">
-                        <div class="service-card">
-                            <img src="services_two.svg" class="img-fluid mb-2">
-                            <h5>SEO Specialist</h5>
-                        </div>
-                    </div>
-
-                    <div class="col-6 col-sm-6 col-md-3">
-                        <div class="service-card">
-                            <img src="services_three.svg" class="img-fluid mb-2">
-                            <h5>Security Expert</h5>
-                        </div>
-                    </div>
-
-                    <div class="col-6 col-sm-6 col-md-3">
-                        <div class="service-card">
-                            <img src="services_four.svg" class="img-fluid mb-2">
-                            <h5>Web Development</h5>
-                        </div>
-                    </div>
-
-                    <div class="col-6 col-sm-6 col-md-3">
-                        <div class="service-card">
-                            <img src="services_five.svg" class="img-fluid mb-2">
-                            <h5>UI/UX Design</h5>
-                        </div>
-                    </div>
-
-                    <div class="col-6 col-sm-6 col-md-3">
-                        <div class="service-card">
-                            <img src="services_six.svg" class="img-fluid mb-2">
-                            <h5>Photography</h5>
-                        </div>
-                    </div>
-
-                    <div class="col-6 col-sm-6 col-md-3">
-                        <div class="service-card">
-                            <img src="services_seven.svg" class="img-fluid mb-2">
-                            <h5>IOS App Development</h5>
-                        </div>
-                    </div>
-
-                    <div class="col-6 col-sm-6 col-md-3">
-                        <div class="service-card">
-                            <img src="services_eight.svg" class="img-fluid mb-2">
-                            <h5>Graphic Design</h5>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-    </section>
-    <!-- SKILLS -->
-    <section id="skills" class="py-5 text-center">
-        <div class="container">
-            <h2 class="mb-5">My Skills</h2>
-
-            <div class="row">
-
-                <div class="col-6 col-md-3 mb-4">
-                    <div class="skill-box">HTML</div>
-                </div>
-
-                <div class="col-6 col-md-3 mb-4">
-                    <div class="skill-box">CSS</div>
-                </div>
-
-                <div class="col-6 col-md-3 mb-4">
-                    <div class="skill-box">JavaScript</div>
-                </div>
-
-                <div class="col-6 col-md-3 mb-4">
-                    <div class="skill-box">Bootstrap</div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <!-- ================= PROJECTS ================= -->
-    <section id="projects" class="py-5 text-center">
-        <div class="container">
-            <h2 class="projects-heading mb-2">My Projects</h2>
-            <p class="projects-sub mb-4">Beginner-friendly projects built with HTML, CSS, JavaScript &amp; PHP</p>
-
-            <!-- Filter Buttons -->
-            <div class="project-filters mb-4">
-                <button class="filter-btn active" data-filter="all">All</button>
-                <button class="filter-btn" data-filter="html-css">HTML / CSS</button>
-                <button class="filter-btn" data-filter="js">JavaScript</button>
-                <button class="filter-btn" data-filter="php">PHP</button>
-            </div>
-
-            <div class="row g-4" id="projectsGrid">
-
-                <!-- Project 1: Login Card (HTML/CSS) -->
-                <div class="col-12 col-sm-6 col-lg-4 project-item" data-category="html-css">
-                    <a href="login card/index.html" target="_blank" class="project-link">
-                        <div class="project-card">
-                            <div class="project-img-wrap">
-                                <img src="loginpage.png" alt="Login Card Project" class="project-img">
-                            </div>
-                            <div class="project-overlay-tag">
-                                <span class="project-tag">HTML / CSS</span>
-                            </div>
-                            <div class="project-body">
-                                <h5>Login Card</h5>
-                                <p>A clean and modern login card UI built with HTML &amp; CSS. Features a responsive
-                                    design with styled input fields and button.</p>
-                                <div class="project-tech">
-                                    <span>HTML</span>
-                                    <span>CSS</span>
-                                </div>
-                                <div class="view-project">View Project →</div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- Project 2: Sign In Page (HTML/CSS) -->
-                <div class="col-12 col-sm-6 col-lg-4 project-item" data-category="html-css">
-                    <a href="Sign in/index.html" target="_blank" class="project-link">
-                        <div class="project-card">
-                            <div class="project-img-wrap">
-                                <img src="sign in.png" alt="Sign In Project" class="project-img">
-                            </div>
-                            <div class="project-overlay-tag">
-                                <span class="project-tag">HTML / CSS</span>
-                            </div>
-                            <div class="project-body">
-                                <h5>Sign In Page</h5>
-                                <p>A fully styled sign-in page with form validation-ready layout, modern UI design, and
-                                    responsive structure for all screen sizes.</p>
-                                <div class="project-tech">
-                                    <span>HTML</span>
-                                    <span>CSS</span>
-                                </div>
-                                <div class="view-project">View Project →</div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- Project 3: WatchShop (HTML/CSS/JS) -->
-                <div class="col-12 col-sm-6 col-lg-4 project-item" data-category="js">
-                    <a href="WATCHSHOP project/index.html" target="_blank" class="project-link">
-                        <div class="project-card">
-                            <div class="project-img-wrap">
-                                <img src="Watch-Shop-07-05-2026_06_06_AM.png" alt="WatchShop Project"
-                                    class="project-img">
-                            </div>
-                            <div class="project-overlay-tag">
-                                <span class="project-tag">HTML / CSS / JS</span>
-                            </div>
-                            <div class="project-body">
-                                <h5>WatchShop</h5>
-                                <p>A watch e-commerce website with product listings, responsive layout, and interactive
-                                    features. Showcases real-world shopping UI design.</p>
-                                <div class="project-tech">
-                                    <span>HTML</span>
-                                    <span>CSS</span>
-                                    <span>JavaScript</span>
-                                </div>
-                                <div class="view-project">View Project →</div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- Project 4: Calculator (JS) -->
-                <div class="col-12 col-sm-6 col-lg-4 project-item" data-category="js">
-                    <a href="projects/calculator/index.html" target="_blank" class="project-link">
-                        <div class="project-card">
-                            <div class="project-img-wrap">
-                                <img src="calculator.png" alt="WatchShop Project" class="project-img">
-                            </div>
-
-                            <div class="project-overlay-tag">
-                                <span class="project-tag">JavaScript</span>
-                            </div>
-                            <div class="project-body">
-                                <h5>Calculator App</h5>
-                                <p>A fully functional calculator with all basic operations, keyboard support, and a
-                                    clean pink UI built with vanilla JavaScript.</p>
-                                <div class="project-tech">
-                                    <span>HTML</span>
-                                    <span>CSS</span>
-                                    <span>JavaScript</span>
-                                </div>
-                                <div class="view-project">View Project →</div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- Project 5: Student Registration Form (PHP) -->
-                <div class="col-12 col-sm-6 col-lg-4 project-item" data-category="php">
-                    <a href="projects/registration-form/index.html" target="_blank" class="project-link">
-                        <div class="project-card">
-                            <div class="project-preview p-preview-5">
-                                <span>🎓</span>
-                                <p>Registration Form</p>
-                            </div>
-                            <div class="project-overlay-tag">
-                                <span class="project-tag">PHP</span>
-                            </div>
-                            <div class="project-body">
-                                <h5>Student Registration Form</h5>
-                                <p>A student registration system with full form validation. PHP version saves data to
-                                    MySQL database with success/error messages.</p>
-                                <div class="project-tech">
-                                    <span>HTML</span>
-                                    <span>CSS</span>
-                                    <span>PHP</span>
-                                    <span>MySQL</span>
-                                </div>
-                                <div class="view-project">View Project →</div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- Project 6: Blog Website (PHP) -->
-                <div class="col-12 col-sm-6 col-lg-4 project-item" data-category="html-css">
-                    <a href="Fixed background/index.html" target="_blank" class="project-link">
-                        <div class="project-card">
-                            <div class="project-img-wrap">
-                                <img src="fixedbg.png" alt="fixed bg Project" class="project-img">
-                            </div>
-                            <div class="project-overlay-tag">
-                                <span class="project-tag">HTML / CSS</span>
-                            </div>
-                            <div class="project-body">
-                                <h5>Fixed Background</h5>
-                                <p>A fully styled background page with form validation-ready layout, modern UI design,
-                                    and responsive structure for all screen sizes.</p>
-                                <div class="project-tech">
-                                    <span>HTML</span>
-                                    <span>CSS</span>
-                                </div>
-                                <div class="view-project">View Project →</div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-
-            </div><!-- end row -->
-        </div>
-    </section>
-
-    <!-- Pricing  -->
-    <section class="pricing-section">
-        <div class="pricing-wrapper">
-
-            <h2>Our Pricing</h2>
-
-            <div class="pricing-cards">
-
-                <div class="Scard featured">
-                    <h3>Basic</h3>
-                    <p class="price">Rs. 1,999</p>
-                    <ul>
-                        <li>1 Page Website</li>
-                        <li>Basic Design</li>
-                        <li>Email Support</li>
-                    </ul>
-                    <button>Select</button>
-                </div>
-
-                <div class="Scard featured">
-                    <h3>Standard</h3>
-                    <p class="price">Rs. 3,999</p>
-                    <ul>
-                        <li>5 Pages Website</li>
-                        <li>Responsive Design</li>
-                        <li>Priority Support</li>
-                    </ul>
-                    <button>Select</button>
-                </div>
-
-                <div class="Scard featured">
-                    <h3>Premium</h3>
-                    <p class="price">Rs. 6,999</p>
-                    <ul>
-                        <li>Full Website</li>
-                        <li>Modern Design</li>
-                        <li>24/7 Support</li>
-                    </ul>
-                    <button>Select</button>
-                </div>
-
+            <div class="btn-section">
+                <form action=""><button type="button">SHOW MORE WATCHES</button></form>
             </div>
 
         </div>
-    </section>
-    <!-- BLOG -->
-    <section id="blog" class="py-5 bg-light">
-        <div class="container">
-            <h2 class="text-center mb-5">My Blogs</h2>
 
-            <div class="row">
+    </div>
+    <!-- </div> -->
 
-                <div class="col-lg-4 mb-4">
-                    <div class="card blog-card">
-                        <img src="886-400x250.jpg">
-                        <div class="card-body">
-                            <h5>Web Design</h5>
-                            <p>Modern UI ideas</p>
-                        </div>
-                    </div>
-                </div>
+    <!-- //---------------------------------------// -->
 
-                <div class="col-lg-4 mb-4">
-                    <div class="card blog-card">
-                        <img src="1010-400x250.jpg">
-                        <div class="card-body">
-                            <h5>CSS Tricks</h5>
-                            <p>Better styling tips</p>
-                        </div>
-                    </div>
-                </div>
+    <!-- // =============== section 7==============// -->
+    <div class="features center">
 
-                <div class="col-lg-4 mb-4">
-                    <div class="card blog-card">
-                        <img src="1084-400x250.jpg">
-                        <div class="card-body">
-                            <h5>JavaScript</h5>
-                            <p>Learn JS basics</p>
-                        </div>
-                    </div>
-                </div>
+        <div>
+            <img src="boxbg.png" alt="">
+            <h3>Free Shipping Method</h3>
+            <p>aorem ixpsacdolor sit ameasecur adipisicing elitsf edasd.
 
-            </div>
-        </div>
-    </section>
-
-    <!-- TESTIMONIALS -->
-    <section id="testimonials" class="py-5 text-center">
-        <div class="container">
-            <h2 class="mb-5">Testimonials</h2>
-
-            <div class="row">
-
-                <div class="col-md-4 mb-4">
-                    <div class="testimonial">
-                        <img src="21.jpg">
-                        <p>"Great developer!"</p>
-                        <h6>Client 1</h6>
-                    </div>
-                </div>
-
-                <div class="col-md-4 mb-4">
-                    <div class="testimonial">
-                        <img src="22.jpg">
-                        <p>"Very professional"</p>
-                        <h6>Client 2</h6>
-                    </div>
-                </div>
-
-                <div class="col-md-4 mb-4">
-                    <div class="testimonial">
-                        <img src="23.jpg">
-                        <p>"Highly recommended"</p>
-                        <h6>Client 3</h6>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section id="contact" class="py-5 text-center bg-light">
-        <div class="container1">
-            <h2>Contact Me</h2>
-
-            <input type="text" id="contactName" class="form-control my-2" placeholder="Name">
-            <div class="contact-error" id="errName">⚠️ Please enter your name.</div>
-
-            <input type="email" id="contactEmail" class="form-control my-2" placeholder="Email">
-            <div class="contact-error" id="errEmail">⚠️ Please enter a valid email address.</div>
-
-            <textarea id="contactMessage" class="form-control my-2" placeholder="Message"></textarea>
-            <div class="contact-error" id="errMessage">⚠️ Please enter your message.</div>
-
-            <a href="#" class="animated-btn" onclick="sendToWhatsApp(); return false;">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                Send Message
-            </a>
+            </p>
         </div>
 
-        <!-- FOOTER -->
-        <footer class="footer">
-            <p>© 2026 Sheeza Portfolio</p>
+        <div>
+            <img src="lock2-removebg-preview.png" alt="">
+            <h3>Secure Payment System</h3>
+            <p>aorem ixpsacdolor sit ameasecur adipisicing elitsf edasd.
 
-            <div class="social-links">
-                <a href="https://www.facebook.com/sheeza.webdeveloper" target="_blank">
-                    <i class="fab fa-facebook"></i>
-                </a>
+            </p>
+        </div>
 
-                <a href="https://www.instagram.com/sheeza_webdevelepor?igsh=ZzgycGlkeGFrZW5h" target="_blank">
-                    <i class="fab fa-instagram"></i>
-                </a>
+        <div>
+            <img src="recyclebg.png" alt="">
+            <h3>Secure Payment System</h3>
+            <p>aorem ixpsacdolor sit ameasecur adipisicing elitsf edasd.
 
-                <a href="https://tiktok.com/@sheeza_princess40" target="_blank">
-                    <i class="fab fa-tiktok"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/your-name" target="_blank">
-                    <i class="fa-brands fa-linkedin"></i>
-                </a>
-            </div>
-        </footer>
+            </p>
+        </div>
 
-    </section>
-    <script>
-        function sendToWhatsApp() {
-            var name    = document.getElementById('contactName').value.trim();
-            var email   = document.getElementById('contactEmail').value.trim();
-            var message = document.getElementById('contactMessage').value.trim();
+    </div>
 
-            // Reset errors
-            document.getElementById('errName').style.display    = 'none';
-            document.getElementById('errEmail').style.display   = 'none';
-            document.getElementById('errMessage').style.display = 'none';
-            document.getElementById('contactName').style.borderColor    = '#f5badc';
-            document.getElementById('contactEmail').style.borderColor   = '#f5badc';
-            document.getElementById('contactMessage').style.borderColor = '#f5badc';
+    <div class="footer-container center">
 
-            var valid = true;
-            var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        <div>
+            <h2>Time <span>Zone</span></h2>
+            <p>Asorem ipsum adipolor sdit amet, consectetur adipisicing elitcf sed do eiusmod tem.
 
-            if (!name) {
-                document.getElementById('errName').style.display = 'block';
-                document.getElementById('contactName').style.borderColor = '#ef4444';
-                valid = false;
-            }
-            if (!email || !emailPattern.test(email)) {
-                document.getElementById('errEmail').style.display = 'block';
-                document.getElementById('contactEmail').style.borderColor = '#ef4444';
-                valid = false;
-            }
-            if (!message) {
-                document.getElementById('errMessage').style.display = 'block';
-                document.getElementById('contactMessage').style.borderColor = '#ef4444';
-                valid = false;
-            }
+            </p>
+        </div>
 
-            if (!valid) return;
+        <div>
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Offers & Discounts</a></li>
+                <li>
+                    <a href="#">Get Coupon</a>
+                </li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
 
-            var phone = "923231367206";
-            var url = "https://wa.me/" + phone + "?text=" +
-                "Name: " + encodeURIComponent(name) + "%0a" +
-                "Email: " + encodeURIComponent(email) + "%0a" +
-                "Message: " + encodeURIComponent(message);
+        <div>
+            <h3>New Products</h3>
+            <ul>
+                <li><a href="#">Woman Cloth</a></li>
+                <li><a href="#">Fashion Accessories</a></li>
+                <li><a href="#">Man Accessories</a></li>
+                <li><a href="#">Rubber made Toys</a></li>
+            </ul>
+        </div>
 
-            window.open(url, "_blank");
-        }
+        <div>
+            <h3>Support</h3>
+            <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Payment Issue</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <p class="copy">Copyright © 2026 All rights reserved</p>
+    <!-- //--------------------------------------------// -->
 
 
-        const menu = document.getElementById("menu");
-        const toggleBtn = document.getElementById("menuToggle");
-        const closeBtn = document.getElementById("closeBtn");
-        const menuIcon = document.getElementById("menuIcon");
-
-        toggleBtn.addEventListener("click", () => {
-            menu.classList.add("active");
-            menuIcon.innerHTML = "&times;";
-        });
-
-        closeBtn.addEventListener("click", () => {
-            menu.classList.remove("active");
-            menuIcon.innerHTML = "&#9776;";
-        });
-
-        // ---- PROJECT FILTER ----
-        const filterBtns = document.querySelectorAll(".filter-btn");
-        const projectItems = document.querySelectorAll(".project-item");
-
-        filterBtns.forEach(btn => {
-            btn.addEventListener("click", () => {
-                // Active button
-                filterBtns.forEach(b => b.classList.remove("active"));
-                btn.classList.add("active");
-
-                const filter = btn.getAttribute("data-filter");
-
-                projectItems.forEach(item => {
-                    if (filter === "all" || item.getAttribute("data-category") === filter) {
-                        item.style.display = "block";
-                        item.classList.add("fadeIn");
-                    } else {
-                        item.style.display = "none";
-                        item.classList.remove("fadeIn");
-                    }
-                });
-            });
-        });
 
 
-    </script>
-
-
+    </div>
 </body>
 
 </html>
