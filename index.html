@@ -11,12 +11,13 @@
     <title>Sheeza Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-<link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="Style.css">
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </head>
+
 <body>
 
     <!-- NAVBAR -->
@@ -41,6 +42,7 @@
                     <li><a href="#">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
                     <li><a href="#blog">Blog</a></li>
                     <li><a href="#testimonials">Testimonials</a></li>
                     <li><a href="#contact">Contact</a></li>
@@ -294,6 +296,178 @@
             </div>
         </div>
     </section>
+    <!-- ================= PROJECTS ================= -->
+    <section id="projects" class="py-5 text-center">
+        <div class="container">
+            <h2 class="projects-heading mb-2">My Projects</h2>
+            <p class="projects-sub mb-4">Beginner-friendly projects built with HTML, CSS, JavaScript &amp; PHP</p>
+
+            <!-- Filter Buttons -->
+            <div class="project-filters mb-4">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="html-css">HTML / CSS</button>
+                <button class="filter-btn" data-filter="js">JavaScript</button>
+                <button class="filter-btn" data-filter="php">PHP</button>
+            </div>
+
+            <div class="row g-4" id="projectsGrid">
+
+                <!-- Project 1: Login Card (HTML/CSS) -->
+                <div class="col-12 col-sm-6 col-lg-4 project-item" data-category="html-css">
+                    <a href="login card/index.html" target="_blank" class="project-link">
+                        <div class="project-card">
+                            <div class="project-img-wrap">
+                                <img src="loginpage.png" alt="Login Card Project" class="project-img">
+                            </div>
+                            <div class="project-overlay-tag">
+                                <span class="project-tag">HTML / CSS</span>
+                            </div>
+                            <div class="project-body">
+                                <h5>Login Card</h5>
+                                <p>A clean and modern login card UI built with HTML &amp; CSS. Features a responsive
+                                    design with styled input fields and button.</p>
+                                <div class="project-tech">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                </div>
+                                <div class="view-project">View Project →</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Project 2: Sign In Page (HTML/CSS) -->
+                <div class="col-12 col-sm-6 col-lg-4 project-item" data-category="html-css">
+                    <a href="Sign in/index.html" target="_blank" class="project-link">
+                        <div class="project-card">
+                            <div class="project-img-wrap">
+                                <img src="sign in.png" alt="Sign In Project" class="project-img">
+                            </div>
+                            <div class="project-overlay-tag">
+                                <span class="project-tag">HTML / CSS</span>
+                            </div>
+                            <div class="project-body">
+                                <h5>Sign In Page</h5>
+                                <p>A fully styled sign-in page with form validation-ready layout, modern UI design, and
+                                    responsive structure for all screen sizes.</p>
+                                <div class="project-tech">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                </div>
+                                <div class="view-project">View Project →</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Project 3: WatchShop (HTML/CSS/JS) -->
+                <div class="col-12 col-sm-6 col-lg-4 project-item" data-category="js">
+                    <a href="WATCHSHOP project/index.html" target="_blank" class="project-link">
+                        <div class="project-card">
+                            <div class="project-img-wrap">
+                                <img src="Watch-Shop-07-05-2026_06_06_AM.png" alt="WatchShop Project"
+                                    class="project-img">
+                            </div>
+                            <div class="project-overlay-tag">
+                                <span class="project-tag">HTML / CSS / JS</span>
+                            </div>
+                            <div class="project-body">
+                                <h5>WatchShop</h5>
+                                <p>A watch e-commerce website with product listings, responsive layout, and interactive
+                                    features. Showcases real-world shopping UI design.</p>
+                                <div class="project-tech">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>JavaScript</span>
+                                </div>
+                                <div class="view-project">View Project →</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Project 4: Calculator (JS) -->
+                <div class="col-12 col-sm-6 col-lg-4 project-item" data-category="js">
+                    <a href="projects/calculator/index.html" target="_blank" class="project-link">
+                        <div class="project-card">
+                            <div class="project-img-wrap">
+                                <img src="calculator.png" alt="WatchShop Project" class="project-img">
+                            </div>
+
+                            <div class="project-overlay-tag">
+                                <span class="project-tag">JavaScript</span>
+                            </div>
+                            <div class="project-body">
+                                <h5>Calculator App</h5>
+                                <p>A fully functional calculator with all basic operations, keyboard support, and a
+                                    clean pink UI built with vanilla JavaScript.</p>
+                                <div class="project-tech">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>JavaScript</span>
+                                </div>
+                                <div class="view-project">View Project →</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Project 5: Student Registration Form (PHP) -->
+                <div class="col-12 col-sm-6 col-lg-4 project-item" data-category="php">
+                    <a href="projects/registration-form/index.html" target="_blank" class="project-link">
+                        <div class="project-card">
+                            <div class="project-preview p-preview-5">
+                                <span>🎓</span>
+                                <p>Registration Form</p>
+                            </div>
+                            <div class="project-overlay-tag">
+                                <span class="project-tag">PHP</span>
+                            </div>
+                            <div class="project-body">
+                                <h5>Student Registration Form</h5>
+                                <p>A student registration system with full form validation. PHP version saves data to
+                                    MySQL database with success/error messages.</p>
+                                <div class="project-tech">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>PHP</span>
+                                    <span>MySQL</span>
+                                </div>
+                                <div class="view-project">View Project →</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Project 6: Blog Website (PHP) -->
+                <div class="col-12 col-sm-6 col-lg-4 project-item" data-category="html-css">
+                    <a href="Fixed background/index.html" target="_blank" class="project-link">
+                        <div class="project-card">
+                            <div class="project-img-wrap">
+                                <img src="fixedbg.png" alt="fixed bg Project" class="project-img">
+                            </div>
+                            <div class="project-overlay-tag">
+                                <span class="project-tag">HTML / CSS</span>
+                            </div>
+                            <div class="project-body">
+                                <h5>Fixed Background</h5>
+                                <p>A fully styled background page with form validation-ready layout, modern UI design,
+                                    and responsive structure for all screen sizes.</p>
+                                <div class="project-tech">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                </div>
+                                <div class="view-project">View Project →</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+            </div><!-- end row -->
+        </div>
+    </section>
+
     <!-- Pricing  -->
     <section class="pricing-section">
         <div class="pricing-wrapper">
@@ -420,9 +594,14 @@
         <div class="container1">
             <h2>Contact Me</h2>
 
-            <input type="text" class="form-control my-2" placeholder="Name">
-            <input type="email" class="form-control my-2" placeholder="Email">
-            <textarea class="form-control my-2" placeholder="Message"></textarea>
+            <input type="text" id="contactName" class="form-control my-2" placeholder="Name">
+            <div class="contact-error" id="errName">⚠️ Please enter your name.</div>
+
+            <input type="email" id="contactEmail" class="form-control my-2" placeholder="Email">
+            <div class="contact-error" id="errEmail">⚠️ Please enter a valid email address.</div>
+
+            <textarea id="contactMessage" class="form-control my-2" placeholder="Message"></textarea>
+            <div class="contact-error" id="errMessage">⚠️ Please enter your message.</div>
 
             <a href="#" class="animated-btn" onclick="sendToWhatsApp(); return false;">
                 <span></span>
@@ -458,12 +637,40 @@
     </section>
     <script>
         function sendToWhatsApp() {
-            var name = document.querySelector('input[placeholder="Name"]').value;
-            var email = document.querySelector('input[placeholder="Email"]').value;
-            var message = document.querySelector('textarea').value;
+            var name    = document.getElementById('contactName').value.trim();
+            var email   = document.getElementById('contactEmail').value.trim();
+            var message = document.getElementById('contactMessage').value.trim();
 
-            var phone = "923231367206"; // apna WhatsApp number (without +)
+            // Reset errors
+            document.getElementById('errName').style.display    = 'none';
+            document.getElementById('errEmail').style.display   = 'none';
+            document.getElementById('errMessage').style.display = 'none';
+            document.getElementById('contactName').style.borderColor    = '#f5badc';
+            document.getElementById('contactEmail').style.borderColor   = '#f5badc';
+            document.getElementById('contactMessage').style.borderColor = '#f5badc';
 
+            var valid = true;
+            var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+            if (!name) {
+                document.getElementById('errName').style.display = 'block';
+                document.getElementById('contactName').style.borderColor = '#ef4444';
+                valid = false;
+            }
+            if (!email || !emailPattern.test(email)) {
+                document.getElementById('errEmail').style.display = 'block';
+                document.getElementById('contactEmail').style.borderColor = '#ef4444';
+                valid = false;
+            }
+            if (!message) {
+                document.getElementById('errMessage').style.display = 'block';
+                document.getElementById('contactMessage').style.borderColor = '#ef4444';
+                valid = false;
+            }
+
+            if (!valid) return;
+
+            var phone = "923231367206";
             var url = "https://wa.me/" + phone + "?text=" +
                 "Name: " + encodeURIComponent(name) + "%0a" +
                 "Email: " + encodeURIComponent(email) + "%0a" +
@@ -486,6 +693,30 @@
         closeBtn.addEventListener("click", () => {
             menu.classList.remove("active");
             menuIcon.innerHTML = "&#9776;";
+        });
+
+        // ---- PROJECT FILTER ----
+        const filterBtns = document.querySelectorAll(".filter-btn");
+        const projectItems = document.querySelectorAll(".project-item");
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener("click", () => {
+                // Active button
+                filterBtns.forEach(b => b.classList.remove("active"));
+                btn.classList.add("active");
+
+                const filter = btn.getAttribute("data-filter");
+
+                projectItems.forEach(item => {
+                    if (filter === "all" || item.getAttribute("data-category") === filter) {
+                        item.style.display = "block";
+                        item.classList.add("fadeIn");
+                    } else {
+                        item.style.display = "none";
+                        item.classList.remove("fadeIn");
+                    }
+                });
+            });
         });
 
 
